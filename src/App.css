@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+*{
+  font-family: 'Hachi Maru Pop', cursive;
+}
+.body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;  
+  
+}
+.card {
+  width: 500px;
+  padding: 20px;
+  background-color: aliceblue;
+  display: inline;
+  justify-content: center;
+  
+
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  height: 50px; 
+  
+  
+}
+.buttons, button, a{
+  color:white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.author{
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+}
+.quote {
+  height: 300px;
+  display: inline;  
+  justify-content: center; 
+  position: relative;  
+}
